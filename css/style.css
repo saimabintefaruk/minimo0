@@ -1,0 +1,228 @@
+/*conmmon css code*/
+body{
+	margin: 0;
+	font-weight: 400;
+	color: #626262;
+    text-decoration: none;
+}
+/*conmmon css code*/
+/*header section start*/
+header{
+    padding:25px 0;
+}
+.container{
+	margin:0 auto;
+	width:90%;
+	overflow:hidden;
+}
+.logo{
+	margin-top:6px;
+	width:13%;
+	float:left;
+}
+.logo a{}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:70%;
+	float:right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style:none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0px 60px;
+	display:inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform:uppercase;
+	border-bottom: 2px solid transparent;
+	transition:.33s;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header section start*/
+/*banner section start*/
+.banner{}
+.container{}
+.banner_img{}
+.banner_img img{
+	width: 100%;
+}
+/*banner section end*/
+/*weekend section start*/
+.container2{
+	/* margin: 70px auto; */
+	width: 80%;
+	overflow: hidden;
+}
+.w_content{
+}
+.c_tag{
+	margin:0;
+	font-family:sans-serif;
+	font-size: 14px;
+	font-weight:300;
+	text-transform: uppercase;
+}
+.c_title{
+	margin:15px 0 25px;
+	font-size: 30px;
+	font-optical-sizing:400;
+}
+.c_text{
+	margin: 0;
+	line-height:24px;
+}
+.mb_45{
+	margin-bottom: 45px;
+}
+/*weekend end*/
+/*blog start*/
+.blog{
+	padding: 0 0 80px;
+}
+.s_blog{
+	margin-top:80px;
+	margin-left:30px;
+	width:47%;
+	box-sizing: border-box;
+	float: left;
+}
+.s_blog:nth-chile(even){
+	margin-left: 5%;
+}
+.s_img{
+	margin-bottom: 25px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog end */
+/*news start */
+.news{
+	padding:70px 0;
+	background-color:#f0f0f0;
+}
+.container2{
+	margin:0 auto;
+	width:80%;
+	overflow:hidden;
+}
+.signup{
+    text-align: center;
+}
+.s_h1{
+	margin-top:0 ;
+	margin-bottom:70px ;
+	color:#333333;
+}
+.s_form{
+	width:400px;
+	margin: 0 auto;
+	position: relative;
+}
+.s_form input{
+	padding-left: 5px;
+	padding-right: 15px;
+	width: 380px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	color: #626262;
+	background-color: transparent;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	top:15px;
+	right: 0;
+	position: absolute;
+	background: transparent;
+	border:none;
+	cursor:pointer;
+}
+/*button start*/
+.button{
+	text-align: center;
+	padding:160px 0 192px;
+}
+.container2{
+}
+.btn{
+}
+.btn a{
+    display: inline-block;
+    padding: 24px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #626262;
+    border-radius: 7px;
+    border: 1px solid #626262;
+    transition: .33s;
+}
+.btn a:hover{
+ 	color:black;
+ 	background-color:#626262;
+}
+/*button end*/
+/*footer start*/
+.footer{
+	background-color: #efefef;
+	overflow: hidden;
+}
+.container2{
+}
+.footer_left{
+	width: 40%;
+    float: left;
+}
+.footer_left ul{
+	overflow: hidden;
+}
+.footer_left ul li{
+	list-style: none;
+    float: left;
+}
+.footer_left ul li a{
+	margin: 0px 15px;
+	font-size: 18px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+}
+.footer_right {
+    width: 50%;
+    float: right;
+}
+.footer_right ul {
+    float: right;
+}
+
+.footer_right ul li {
+    list-style: none;
+    float: left;
+}
+.footer_p{
+	float: left;
+
+}
+.footer_right ul li a {
+    padding: 15px 12px;
+    display: inline-block;
+    font-size:18px;
+    color: #626262;
+    text-decoration: none;
+    float: left;
+}
+/*footer end*/
